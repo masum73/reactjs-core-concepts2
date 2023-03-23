@@ -38,7 +38,7 @@ function ExternalUsers (){
     <div>
       <h2>External Users</h2>
       <p>{users.length}</p> 
-      {/* step 5 - show dynamic data using map */}
+      {/* step 5 - show dynamic data using map  */}
       {
         users.map(user => <User name = {user.name} email = {user.email} ></User>)
       }
